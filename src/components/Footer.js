@@ -61,8 +61,8 @@ export default function Footer() {
               },
               {
                 icon: <MdEmail />,
-                title: 'minhfish20hp@gmail.com',
-                path: 'mailto:minhfish20hp@gmail.com',
+                title: 'minhnguyen.dev20@gmail.com',
+                path: 'mailto:minhnguyen.dev20@gmail.com',
               },
               {
                 icon: <MdLocationOn />,

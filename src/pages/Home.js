@@ -17,6 +17,7 @@ export default function Home() {
         duration={1}
         animateOut="fadeIn"
         delay={0}
+        animateOnce
       >
         <ProjectsSection />
       </ScrollAnimation>

@@ -113,6 +113,7 @@ export default function About() {
                 duration={1}
                 animateOut="fadeIn"
                 delay={0}
+                animateOnce
               >
                 <p className="about__subheading">
                   Hi, I am &nbsp;<span>Truong Minh Nguyen</span>
@@ -146,6 +147,7 @@ export default function About() {
                 duration={1}
                 animateOut="fadeIn"
                 delay={0}
+                animateOnce
               >
                 <img src={AboutImg} alt="me" />
               </ScrollAnimation>
@@ -157,6 +159,7 @@ export default function About() {
               duration={1}
               animateOut="fadeIn"
               delay={0}
+              animateOnce
             >
               <div className="about__info__item">
                 <p>
@@ -180,6 +183,7 @@ export default function About() {
               duration={1}
               animateOut="fadeIn"
               delay={0}
+              animateOnce
             >
               <div className="about__info__item">
                 <p>
@@ -205,6 +209,7 @@ export default function About() {
               duration={1}
               animateOut="fadeIn"
               delay={0}
+              animateOnce
             >
               <div className="about__info__item">
                 <p>
@@ -243,10 +248,19 @@ export default function About() {
                 />
                 <AboutInfoItem
                   title=" UI Framework"
-                  items={['Bootstrap', 'Material UI', 'Ant Design']}
+                  items={[
+                    'Bootstrap',
+                    'Material UI',
+                    'Ant Design',
+                    'Gsap',
+                    'Frame Motion',
+                  ]}
                 />
 
-                <AboutInfoItem title="BackEnd" items={['Node', 'Firebase']} />
+                <AboutInfoItem
+                  title="BackEnd"
+                  items={['NodeJs', 'ExpressJs', 'MongoDb', 'Firebase']}
+                />
                 <AboutInfoItem
                   title="Design"
                   items={['Photoshop', 'Illustrators', 'Figma']}
@@ -262,6 +276,7 @@ export default function About() {
               duration={1}
               animateOut="fadeIn"
               delay={0}
+              animateOnce
             >
               <div className="about__info__item">
                 <p>

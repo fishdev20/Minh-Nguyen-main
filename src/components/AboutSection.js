@@ -82,6 +82,7 @@ export default function AboutSection() {
             duration={0.7}
             animateOut="fadeIn"
             delay={0}
+            animateOnce
           >
             <SectionTitle
               subheading="Let me introduce myself"
@@ -107,6 +108,7 @@ export default function AboutSection() {
             duration={1}
             animateOut="fadeIn"
             delay={0.3}
+            animateOnce
           >
             <img className="aboutImg" src={AboutImg} alt="Img" />
           </ScrollAnimation>
