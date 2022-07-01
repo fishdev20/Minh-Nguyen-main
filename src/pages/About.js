@@ -155,7 +155,7 @@ export default function About() {
           </div>
           <div className="about__info__items">
             <ScrollAnimation
-              animateIn="animate__fadeInLeft"
+              animateIn="animate__fadeInUp"
               duration={1}
               animateOut="fadeIn"
               delay={0}
@@ -179,7 +179,7 @@ export default function About() {
               </div>
             </ScrollAnimation>
             <ScrollAnimation
-              animateIn="animate__fadeInLeft"
+              animateIn="animate__fadeInUp"
               duration={1}
               animateOut="fadeIn"
               delay={0}
@@ -205,7 +205,7 @@ export default function About() {
               </div>
             </ScrollAnimation>
             <ScrollAnimation
-              animateIn="animate__fadeInLeft"
+              animateIn="animate__fadeInUp"
               duration={1}
               animateOut="fadeIn"
               delay={0}
@@ -272,7 +272,7 @@ export default function About() {
               </div>
             </ScrollAnimation>
             <ScrollAnimation
-              animateIn="animate__fadeInLeft"
+              animateIn="animate__fadeInUp"
               duration={1}
               animateOut="fadeIn"
               delay={0}
