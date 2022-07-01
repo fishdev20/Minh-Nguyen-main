@@ -159,11 +159,10 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            {/* <span className="hero__name">Minh Nguyen</span> */}
             <TypeAnimation
               className="hero__name"
               cursor
-              sequence={['Minh Nguyen', 2000]}
+              sequence={['Minh Nguyen', 10000]}
               wrapper="a"
               repeat={Infinity}
             />
@@ -173,26 +172,22 @@ export default function HeroSection() {
             duration={0.7}
             animateOut="fadeIn"
             delay={0}
+            animateOnce
           >
             <div className="hero__img">
               <img src={HeroImg} alt="" />
             </div>
           </ScrollAnimation>
-          {/* <ScrollAnimation
-            animateIn="animate__fadeInUp"
-            duration={0.7}
-            animateOut="fadeIn"
-            delay={0.7}
-          > */}
+
           <div className="hero__info">
             <PText>
               I am fascinated by Web programming. I have a background in
               Software Engineers. I also have 1 year experience as a Front end
-              developer in from 2021.
+              developer from 2021.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
-          {/* </ScrollAnimation> */}
+
           <div className="hero__social">
             <div className="hero__social__indicator">
               <p>Follow</p>
