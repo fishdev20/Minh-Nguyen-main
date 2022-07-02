@@ -162,7 +162,7 @@ export default function HeroSection() {
             <TypeAnimation
               className="hero__name"
               cursor
-              sequence={['Minh Nguyen', 10000]}
+              sequence={['MINH NGUYEN', 10000]}
               wrapper="a"
               repeat={Infinity}
             />
