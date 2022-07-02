@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProjectImg from '../assets/images/projectImg.png';
@@ -131,22 +132,30 @@ const ProjectItemStyles = styled.div`
 
 export default function ProjectItem({ img = ProjectImg, title, desc, url }) {
   return (
-    <ProjectItemStyles>
-      <a href={url}>
-        <div className="projectItem__img">
-          <img src={img} alt="project img" to={url} />
+    <ScrollAnimation
+      animateIn="animate__fadeInUp"
+      duration={1}
+      animateOut="fadeIn"
+      delay={2}
+      animateOnce
+    >
+      <ProjectItemStyles>
+        <a href={url}>
+          <div className="projectItem__img">
+            <img src={img} alt="project img" to={url} />
 
-          <div className="projectItem__info">
-            <Link to="#">
-              <h3 className="projectItem__title">{title}</h3>
-            </Link>
-            <p className="projectItem__desc">{desc}</p>
-            <a href={url}>
-              <button type="button"> VIEW PROJECT</button>
-            </a>
+            <div className="projectItem__info">
+              <Link to="#">
+                <h3 className="projectItem__title">{title}</h3>
+              </Link>
+              <p className="projectItem__desc">{desc}</p>
+              <a href={url}>
+                <button type="button"> VIEW PROJECT</button>
+              </a>
+            </div>
           </div>
-        </div>
-      </a>
-    </ProjectItemStyles>
+        </a>
+      </ProjectItemStyles>
+    </ScrollAnimation>
   );
 }
