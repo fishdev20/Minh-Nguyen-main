@@ -1,28 +1,36 @@
 import { v4 as uuidv4 } from 'uuid';
 import WeatherImg from '../images/weatherapp.jpg';
+import Portfolio from '../images/portfolio_v2.png';
 import Todo from '../images/todo.jpeg';
 
 const projects = [
   {
     id: uuidv4(),
+    name: 'Portfolio v2',
+    desc: 'My new porttfolio-In progress',
+    img: Portfolio,
+    url: 'https://minh-nguyen.netlify.app/',
+  },
+  {
+    id: uuidv4(),
     name: 'Weather App',
-    desc: 'A simple weather App using React, Redux and Bootstrap, API from openweathermap.',
+    desc: 'A weather App using React, Redux and Bootstrap, API from openweathermap.',
     img: WeatherImg,
     url: 'https://weatherapp-2971d.web.app/',
   },
   {
     id: uuidv4(),
     name: 'Todo List',
-    desc: 'Simple Todolist to help you plan your day!',
+    desc: 'Todolist to help you plan your day!',
     img: Todo,
     url: 'https://todolist-e97be.web.app/',
   },
   {
     id: uuidv4(),
     name: 'Simple Chat App',
-    desc: 'Simple Chat App using ReactJS and firebase to store data, the project is only for testing on local, have not deployed yet',
+    desc: 'Chat App using ReactJS and firebase to store data, the project is only for testing on local, have not deployed yet',
     img: 'https://www.bittbox.com/wp-content/uploads/13-android-grumpy-cat-chat-app.jpg',
-    url: 'https://sway.office.com/R7shLLpsNH5wh4na?play',
+    url: 'https://github.com/fishdev20/SimpleChatApp',
   },
   {
     id: uuidv4(),
@@ -33,10 +41,10 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Lorem ipsum dolor',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    name: 'Helsinki Bike Application',
+    desc: 'A Fullstack assignment of Dev Academic of Solita, Finland',
     img: 'https://i.pinimg.com/736x/42/ad/0a/42ad0a58a34c71a51319ddbde601ad26.jpg',
-    url: '',
+    url: 'https://github.com/fishdev20/bike-application',
   },
   {
     id: uuidv4(),
